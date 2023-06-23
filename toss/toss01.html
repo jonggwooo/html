@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        header{            
+            background-image: url("images/new_main.png");
+            background-repeat: no-repeat;
+            height: 1000px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .nav-menu{
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .nav-menu ul{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 40px;
+            list-style-type: none;
+        }
+        .logo{
+            
+            width: 100px;
+            height: 100px;
+            margin-top:10px;
+            margin-left:50px;
+            margin-right: 300px;
+        }
+        .desc{
+            
+        }
+        .desc-first{
+            margin-top:200px;
+        }
+        .desc-first,
+        .desc-second{        
+            text-align: center;
+            font-size: 100px;
+            font-weight: 550;
+        }
+        .desc-second{
+            margin-bottom: 50px;
+        }
+        .desc-third{
+            display: flex;
+            justify-content: center;
+        }
+        .button1{
+            width: 200px;
+            height: 50px;
+            border-radius: 15px;
+            background: rgba(0,0, 0, 0.85);
+            color:white;
+            font-size:20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        nav ul li:hover{
+            background-color:rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            }
+        a{
+            text-decoration: none;
+        
+        }
+        a:visited{
+            color:black;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="center-cover-img">
+        
+        <nav>
+            <div class="logo"><img src="./images/logo-toss-blue.svg" ></div>
+            <div class="nav-menu">
+            <ul>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">고객센터</a></li>
+                <li><a href="">자주 묻는 질문</a></li>
+                <li><a href="">토스 인증서</a></li>
+                <li><a href="">채용</a></li>
+            </ul>            
+            <div style="margin-left: 30px;margin-top: 20px;"><a href="">KOR</a></div>
+            <div style="margin-left: 30px;margin-top: 20px;"><a href="">|</a></div>
+            <div style="margin-left: 30px;margin-top: 20px;"><a href="">ENG</a></div>
+            </div>
+        </nav>
+
+        <div class="desc">
+            <div class="desc-first">금융의 모든 것</div>
+            <div class="desc-second">토스에서 쉽고 간편하게</div>
+            <div class="desc-third">
+                <button class="button1"><img src="./images/applekorea.png" width="30px" height="30px">App Store</button>
+                <button class="button1"><img src="./images/googleplay.png" width="30px" height="30px">Google Play</button>
+            </div>
+            
+        </div>
+    </header>
+    
+
+
+</body>
+</html>
